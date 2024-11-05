@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+
+<title> AstroTours - ABOUT </title>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<body background="images/Sbackground.jpg">
+<div class="wrapper">
+<ul>
+	<li style="float:right"><a href="about.htm">About</a></li>
+	<li><a href="home.htm">Home</a></li>
+	<li><a href="space.htm">SpaceStore</a></li>
+	<li><a href="contact.htm">Contact</a></li>
+	<li><a href="news.htm">News</a></li>
+	<li class="dropdown">
+    <a onclick="myFunction()" class="dropbtn">Redirects</a>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="https://www.nasa.gov/">NASA Official Page</a>
+      <a href="https://webb.nasa.gov/">James Webb Telescope</a>
+      <a href="https://www.nasa.gov/mission_pages/hubble/main/index.html">Hubble Space Telescope</a>
+	</div>
+	</li>
+</ul>
+
+<br>
+
+<h1> About Us </h1>
+
+<center>
+<div id="pfp">
+<img src ="images/pfp.png" 
+width="215px" 
+alt="AstroTours profile picture."/>
+</div>
+</center>
+
+<head>
+	<title>FAQs - Mustafa Jeylani's Space Website</title>
+	<style>
+
+		.container {
+			margin: 50px auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+				h1, h2, h3 {
+			color: #614520;
+			margin-top: 0;
+			text-align: center;
+		}
+		.question {
+			background-color: #614520;
+			color: #ffffff;
+			font-size: 24px;
+			margin-bottom: 10px;
+			padding: 10px;
+			cursor: pointer;
+		}
+		.answer {
+			background-color: #ffffff;
+			display: none;
+			padding: 10px;
+		}
+	</style>
+	<script>
+		function toggleAnswer(question) {
+			var answer = question.nextElementSibling;
+			if (answer.style.display === "block") {
+				answer.style.display = "none";
+			} else {
+				answer.style.display = "block";
+			}
+		}
+	</script>
+</head>
+	<h1>FAQs</h1>
+	<div class="container">
+		<h2>General</h2>
+		<div class="question" onclick="toggleAnswer(this)">What is Mustafa Jeylani's Space Website?</div>
+		<div class="answer" style="color:black" >Mustafa Jeylani's Space Website is a website dedicated to space exploration and astronomy. It provides information about space, including the latest news and discoveries.</div>
+<br>
+		<div class="question" onclick="toggleAnswer(this)">Who is Mustafa Jeylani?</div>
+		<div class="answer" style="color:black">Mustafa Jeylani is a young boy who has a passion for space and astronomy. He created this website to share his love for space with others and find other space enthusiasts like him.</div>
+<br>
+		<div class="question" onclick="toggleAnswer(this)">How can I contact AstroTours?</div>
+		<div class="answer" style="color:black">You can contact Mustafa Jeylani by sending an email to AstroTours@Gmail.com.</div>
+	<br>	
+		<h2>Content</h2>
+		<div class="question" onclick="toggleAnswer(this)">Where does the content on this website come from?</div>
+		<div class="answer" style="color:black">The content on this website comes from a variety of sources, including NASA, SPACENEWS, and other space-related organisations. We also show you the latest articles which we update regularly.</div>
+<br>
+		<div class="question" onclick="toggleAnswer(this)">Is the content on this website accurate?</div>
+		<div class="answer" style="color:black">Yes, every effort is made to ensure that the content on this website is accurate and up-to-date. However, space is a constantly evolving field, so some information may become outdated over time. If you notice any inaccuracies, please contact us and we will do our best to correct them.</div>
+</body>
+</div>
+</html>
